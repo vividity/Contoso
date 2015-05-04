@@ -28,3 +28,7 @@ C:\Users\noel.spencer\Documents\GitHub\Contoso\ContosoUniversity\ContosoUniversi
 C:\Users\noel.spencer\Documents\GitHub\Contoso\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.dll
 C:\Users\noel.spencer\Documents\GitHub\Contoso\ContosoUniversity\ContosoUniversity\bin\EntityFramework.xml
 C:\Users\noel.spencer\Documents\GitHub\Contoso\ContosoUniversity\ContosoUniversity\bin\EntityFramework.SqlServer.xml
+C:\Users\noel.spencer\Documents\GitHub\Contoso\ContosoUniversity\ContosoUniversity\bin\PagedList.dll
+C:\Users\noel.spencer\Documents\GitHub\Contoso\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.dll
+C:\Users\noel.spencer\Documents\GitHub\Contoso\ContosoUniversity\ContosoUniversity\bin\PagedList.xml
+C:\Users\noel.spencer\Documents\GitHub\Contoso\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.xml
