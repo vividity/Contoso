@@ -13,13 +13,13 @@ namespace ContosoUniversity.DAL
 {
     public class SchoolInterceptorTransientErrors : DbCommandInterceptor
     {
-        public int _counter = 0;
+        private int _counter = 0;
         private ILogger _logger = new Logger();
 
-        public override void ReaderExecuted(DbCommand command, DbCommandInterceptionContext<DbDataReader> interceptionContext)
+        public override void ReaderExecuting(DbCommand command, DbCommandInterceptionContext<DbDataReader> interceptionContext)
         {
             bool throwTransientErrors = false;
-            if (commmand.Parameters.Count > 0 && command.Parameters[0].Value.ToString() == "%Throw%")
+            if (command.Parameters.Count > 0 && command.Parameters[0].Value.ToString() == "%Throw%")
             {
                 throwTransientErrors = true;
                 command.Parameters[0].Value = "%an%";
@@ -37,7 +37,7 @@ namespace ContosoUniversity.DAL
         private SqlException CreateDummySqlException()
         {
             // The instance of SQL Server you attempted to connect to does not support encryption
-            var sqlErrorNumber ber = 20;
+            var sqlErrorNumber = 20;
 
             var sqlErrorCtor = typeof(SqlError).GetConstructors(BindingFlags.Instance | BindingFlags.NonPublic).Where(c => c.GetParameters().Count() == 7).Single();
             var sqlError = sqlErrorCtor.Invoke(new object[] { sqlErrorNumber, (byte)0, (byte)0, "", "", "", 1 });
