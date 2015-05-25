@@ -32,3 +32,7 @@ C:\Users\noel.spencer\Documents\GitHub\Contoso\ContosoUniversity\ContosoUniversi
 C:\Users\noel.spencer\Documents\GitHub\Contoso\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.dll
 C:\Users\noel.spencer\Documents\GitHub\Contoso\ContosoUniversity\ContosoUniversity\bin\PagedList.xml
 C:\Users\noel.spencer\Documents\GitHub\Contoso\ContosoUniversity\ContosoUniversity\bin\PagedList.Mvc.xml
+C:\Users\noel.spencer\Documents\GitHub\Contoso\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InitialCreate.resources
+C:\Users\noel.spencer\Documents\GitHub\Contoso\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.csproj.GenerateResource.Cache
+C:\Users\noel.spencer\Documents\GitHub\Contoso\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.MaxLengthOnNames.resources
+C:\Users\noel.spencer\Documents\GitHub\Contoso\ContosoUniversity\ContosoUniversity\obj\Debug\ContosoUniversity.Migrations.InitialCreate1.resources
